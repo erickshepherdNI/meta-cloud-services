@@ -2,13 +2,13 @@ DESCRIPTION = "Ansible is a simple IT automation platform that makes your applic
 HOMEPAGE = "https://github.com/ansible/ansible/"
 SECTION = "devel/python"
 LICENSE = "GPL-3.0-only"
-LIC_FILES_CHKSUM = "file://COPYING;md5=8f0e2cd40e05189ec81232da84bd6e1a"
+LIC_FILES_CHKSUM = "file://COPYING;md5=1ebbd3e34237af26da5dc08a4e440464"
 
 SRCNAME = "ansible"
 
-SRC_URI = "git://github.com/ansible/ansible.git;protocol=https;branch=stable-2.14"
+SRC_URI = "git://github.com/ansible/ansible.git;protocol=https;branch=stable-2.16"
 
-SRCREV = "5c6dfff68759ccc9794b609db45872950077e98b"
+SRCREV = "ee04df4796af1a438bc80aff33cdd5ca4d5304aa"
 
 S = "${WORKDIR}/git"
 
